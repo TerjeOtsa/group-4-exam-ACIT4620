@@ -15,10 +15,9 @@ Matplotlib
 NumPy
 PIL
 scikit-learn
-
+dataset downloaded fromh https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset
 INSTALLATION 
 Before running the scripts, ensure that all required dependencies are installed. You can install them using pip:
-
 pip install torch torchvision opencv-python numpy matplotlib Pillow scikit-learn
 
 USAGE
