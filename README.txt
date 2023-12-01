@@ -15,10 +15,9 @@ Matplotlib
 NumPy
 PIL
 scikit-learn
-
+dataset downloaded from https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset
 INSTALLATION 
 Before running the scripts, ensure that all required dependencies are installed. You can install them using pip:
-
 pip install torch torchvision opencv-python numpy matplotlib Pillow scikit-learn
 
 USAGE
@@ -29,9 +28,9 @@ python nn3.py
 This script will train the model and plot the training and validation loss.
 
 Model to import into livefeed.py
-This script (NeuralNetwork.py) is only used to import into the live feed script
+This script (NeuralNetwork.py) is only used to import the NeuralNetwork into the live feed script
 Real-Time Emotion Detection
-Ensure the trained model file (e.g., emotion_classifier_0.5drop.pth) is in the same directory.
+Ensure the trained model file (e.g., emotion_classifier_100edrop.pth) is in the same directory.
 
 Run the real-time detection script:
 python livefeed.py
