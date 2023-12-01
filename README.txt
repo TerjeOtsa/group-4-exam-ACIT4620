@@ -8,6 +8,7 @@ Enhanced Model Definition (script2.py): An improved version of the emotion class
 Real-Time Emotion Detection (script3.py): Utilizes a webcam to capture images in real-time, preprocesses them, and uses the trained model to predict and display emotions on the screen.
 two models are currently added to the git hub (emotion_classifier_0.5drop.pth) and (emotion_classifier100e.pth)
 The lastest training history (training_history.json) and the first 100 epoch training in (training_history100.json) contains all the metrics collected from training the model.
+figure_1.png is the metrics over 100 epochs
 Requirements
 Python 3.x
 PyTorch
